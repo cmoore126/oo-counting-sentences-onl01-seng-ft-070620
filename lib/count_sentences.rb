@@ -1,3 +1,5 @@
+require 'pry'
+
 
 class String
 
@@ -15,6 +17,6 @@ class String
 
   def count_sentences
     self.count_sentences.count(".")
-
+binding.pry
   end
 end
